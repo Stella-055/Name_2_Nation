@@ -19,11 +19,13 @@ nav {
     background-color: #133df7;
     position: fixed;
 }
-nav svg {
-    width: 50px;
-    color: white;
+
+.navdiv1{
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 7px;
 }
-nav div {
+.navdiv2 {
   display: flex;
    gap: 2rem;
 }
@@ -55,8 +57,10 @@ body {
 .bodycontainer h4{
   font-size: 1rem;
   color: black;
-
+  margin: 0 1.5rem;
   margin-bottom: 20px;
+  align-self: center;
+  justify-content: center;
 }
 .searchdiv{
   display: flex;
