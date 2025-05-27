@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Press+Start+2P&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    margin: 0;
+    padding: .5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Playfair", serif;
+    font-size: 1.2em;
+    width: 100%;
+    border-bottom: 2px solid #133df7;
+    background-color: #133df7;
+    position: fixed;
+}
+nav svg {
+    width: 50px;
+    color: white;
+}
+nav div {
+  display: flex;
+   gap: 2rem;
+}
+nav div i {
+    font-size: 1.5em;
+    color: white;
+}
+body {
+    font-family: 'Press Start 2P', cursive;
+   color: #133df7;
+    margin: 0;
+   height: 100vh;
+  position: relative;
+}
+.bodycontainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}.bodycontainer h2{
+ 
+  font-size: 2.5em;
+
+  margin-bottom: 20px;
+}
+.bodycontainer h4{
+  font-size: 1rem;
+  color: black;
+
+  margin-bottom: 20px;
+}
+.searchdiv{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px solid #133df7;
+  padding: 0.5rem;
+  gap: 2rem;
+}
+.searchdiv i {
+  font-size: 1.5em;
+  color: #133df7;
+  cursor: pointer;}
+.searchdiv input {
+  width: 300px;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-family: 'Press Start 2P', cursive;
+}
+.searchdiv button {
+  padding: 0.5rem 1rem;
+  background-color: #133df7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 20px;
+}
+.result P{
+  font-size: 1.5rem;
+  font-family: 'Playfair', cursive;
+  color: black;
+  margin: 1rem 0;
+}
